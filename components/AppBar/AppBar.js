@@ -7,10 +7,6 @@ const AppBar = ()=>{
 
     const [active, setActive] = useState(false);
 
-
-    /* const x  = ["0%","-20%", "-50%", "-1000%"]; */
-    const x = ["0%", "100%"];
-   /*  const borderRadius = ["0%", "20%","50%", "100%"]; */
     const variants = {
         open: {
             x: 0,
@@ -32,7 +28,7 @@ const AppBar = ()=>{
     };
 
     return(
-        <div>
+        <>
             {
                 <motion.div
                     transition={{ duration: 0.5 }}
@@ -70,7 +66,7 @@ const AppBar = ()=>{
                     menu
                 </a>
             </div>
-        </div>
+        </>
     );
 }
 

@@ -10,10 +10,10 @@ export default function Index() {
           <AppBar></AppBar>
         </header>    
 
-        <main>
+        <main className="container">
           <MainContent></MainContent>
         </main>
-        
+
       </div>
     </Home>
   )
